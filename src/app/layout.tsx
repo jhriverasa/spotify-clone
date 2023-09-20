@@ -1,7 +1,6 @@
 import "./globals.css";
 import localFont from "@next/font/local";
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 
 const circular = localFont({
   src: [{ path: "../../public/fonts/CircularSpotifyText-Medium.otf" }],
@@ -9,7 +8,7 @@ const circular = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Spotify Clone",
+  title: "Spotify",
   description: "Clone for Spotify with NextJS",
 };
 

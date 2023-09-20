@@ -44,3 +44,24 @@ body {
   color: var(--text-base);
 }
 
+.link-subtle {
+  color: #b3b3b3;
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.subtle-transition {
+  -webkit-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+  -webkit-transition-timing-function: linear;
+  transition-timing-function: linear;
+}
+
+.link-subtle:hover,
+.link-subtle:focus {
+  color: #fff;
+}
