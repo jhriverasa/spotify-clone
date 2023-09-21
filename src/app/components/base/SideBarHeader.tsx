@@ -2,7 +2,7 @@ import Image from "next/image";
 
 import { SearchIcon, HomeIcon, HomeActiveIcon } from "../svg/Icons";
 
-const Header = () => {
+const SideBarHeader = () => {
   return (
     <div className="container-base flex flex-col bg-background-base rounded-xl">
       <div className="container-wrapper py-2 px-3">
@@ -24,4 +24,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default SideBarHeader;

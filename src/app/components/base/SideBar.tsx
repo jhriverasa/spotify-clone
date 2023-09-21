@@ -1,14 +1,14 @@
 import Image from "next/image";
 
 import { SearchIcon, HomeIcon, HomeActiveIcon } from "../svg/Icons";
-import Header from "./Header";
+import SideBarHeader from "./SideBarHeader";
 import Library from "./Library";
 
 const SideBar = () => {
   return (
-    <div className="">
-      <div className="">
-        <Header />
+    <div className="pl-1 pr-2">
+      <div className="py-2">
+        <SideBarHeader />
       </div>
 
       <div>

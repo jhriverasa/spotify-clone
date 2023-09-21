@@ -1,8 +1,9 @@
-'use client';
+"use client";
 import Image from "next/image";
 
 import { AddIcon, LibraryIcon, NextIcon } from "../svg/Icons";
 import RoundedButton from "../essential/RoundedButton";
+import LibListBox from "../boxes/LibListBox";
 
 const Library = () => {
   return (
@@ -33,8 +34,8 @@ const Library = () => {
         </div>
       </div>
 
-      <div className="container-library-filter-buttons ">
-        <div className="flex">
+      <div className="container-library-filter-buttons px-3 py-2">
+        <div className="flex ">
           <RoundedButton
             isSelected
             label="Listas"
@@ -56,6 +57,21 @@ const Library = () => {
               console.log("xdd");
             }}
           />
+        </div>
+      </div>
+
+      <div className="container-library-list thin-scrollbar overflow-y-auto max-h-96 ">
+        <div className="container-library-search-header"></div>
+        <div className="container-library-list-items shadow-2xl">
+          <LibListBox />
+          <LibListBox />
+          <LibListBox />
+          <LibListBox />
+          <LibListBox />
+          <LibListBox />
+          <LibListBox />
+          <LibListBox />
+          <LibListBox />
         </div>
       </div>
     </div>
