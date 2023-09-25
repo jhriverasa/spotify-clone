@@ -18,15 +18,15 @@ const Library = () => {
         </div>
         <div className="flex px-3 py-1">
           <div className="rounded-full hover:bg-background-highlight mr-1">
-            <div className="flex justify-center items-center w-8 h-8">
-              <a className="link-subtle flex items-center hover:cursor-pointer ">
+            <div className="flex justify-center items-center w-8 h-8 active:bg-background-press active:rounded-full">
+              <a className="link-subtle flex items-center hover:cursor-pointer">
                 <AddIcon fill="currentcolor" />
               </a>
             </div>
           </div>
           <div className="rounded-full hover:bg-background-highlight">
-            <div className="flex justify-center items-center w-8 h-8">
-              <a className="link-subtle flex items-center hover:cursor-pointer ">
+            <div className="flex justify-center items-center w-8 h-8 active:bg-background-press active:rounded-full">
+              <a className="link-subtle flex items-center hover:cursor-pointer">
                 <NextIcon fill="currentcolor" />
               </a>
             </div>
@@ -60,7 +60,7 @@ const Library = () => {
         </div>
       </div>
 
-      <div className="container-library-list thin-scrollbar overflow-y-auto max-h-96 ">
+      <div className="container-library-list thin-scrollbar overflow-y-auto max-h-[28rem] ">
         <div className="container-library-search-header"></div>
         <div className="container-library-list-items shadow-2xl">
           <LibListBox />
